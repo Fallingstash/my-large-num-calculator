@@ -16,7 +16,7 @@ int main()
     string message;
     vector<int> result;
     int num[2][101] = {0};
-    cout << "Hello it's calculator the big numbers !!! VERY BIG NUMBERS !!!! Your num must has size < 101 and you can use different operations\n+ adds two larger numbers\n- subtracts one number from another (large)\n=, >, < compares two large numbers\n multiplication and division must have first large number and second single digit number."< endl;
+    cout << "Hello it's calculator the big numbers !!! VERY BIG NUMBERS !!!! Your num must has size < 101 and you can use different operations\n+ adds two larger numbers\n- subtracts one number from another (large)\n=, >, < compares two large numbers\n multiplication and division must have first large number and second single digit number." << endl;
     cin >> a;
     for (int i = 0; i < a.size(); i++) {
         string bufer;
